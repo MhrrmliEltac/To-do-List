@@ -84,8 +84,6 @@ ul{
 }
 li{
   display: flex;
-  background-color: #c4c4c4;
-  border: 1px solid black;
   margin-bottom: 5px;
   justify-content: space-between;
   margin-left: 20px;
