@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.jsdelivr.net/gh/bevacqua/dragula@3.7.3/dist/dragula.min.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="wrapper">
+        <div class="upper"></div>
+      <h1>To-Do List</h1>
+      <div class="sorted">
+        <i class="fa-solid filter fa-arrow-down-wide-short"></i>
+      </div>
+      <div class="input">
+        <i class="fa-solid cancel fa-trash-can"></i>
+        <input class="text" type="text" name="text" id="text" />
+      </div>
+      <ul id="text-content">
+        
+      </ul>      
+      <button type="submit" class="button">
+        <div class="plus_container">
+          <i class="fa-solid plus fa-plus"></i>
+        </div>
+        <p class="button_text">Əlavə et</p>
+      </button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
+  </body>
+</html>
